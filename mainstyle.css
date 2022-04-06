@@ -1,0 +1,41 @@
+h1 {
+  font: 14pt;
+  font-weight: bold;
+  color: blueviolet;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: gray;
+}
+footer {
+  font-size: 9pt;
+  font-style: italic;
+  text-align: center;
+  padding-top: 30pt;
+}
+
+#block1 {
+  height: 100px;
+  width: 200px;
+  background: green;
+  display: inline-block;
+}
+
+.block2 {
+  height: 100px;
+  width: 200px;
+  background: blue;
+  display: inline-block;
+}
+
+.block3 {
+  height: 100px;
+  width: 200px;
+  background: purple;
+  display: inline-block;
+}
