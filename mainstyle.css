@@ -1,8 +1,29 @@
 h1 {
-  font: 14pt;
   font-weight: bold;
-  color: blueviolet;
+  color: blue;
+  font-family: "Rubik Moonrocks", cursive;
+  text-align: right;
+  display: inline-block;
+  width: 400px;
 }
+h2 {
+  font-style: italic;
+  color: blueviolet;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  display: inline-block;
+  width: 400px;
+}
+h3 {
+  font-style: italic;
+  font-weight: bold;
+  color: violet;
+  text-align: left;
+  display: inline-block;
+  width: 400px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 a:link {
   color: blue;
 }
@@ -38,4 +59,23 @@ footer {
   width: 200px;
   background: purple;
   display: inline-block;
+}
+
+.lighttext {
+  font-weight: lighter;
+}
+.darktext {
+  font-weight: bold;
+}
+.darkertext {
+  font-weight: bolder;
+}
+.italictext {
+  font-style: italic;
+}
+.obliquetext {
+  font-style: oblique;
+}
+dt {
+  font-weight: bold;
 }
